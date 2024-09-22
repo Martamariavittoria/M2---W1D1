@@ -1,0 +1,41 @@
+ALGORITMO 
+Un algoritmo rappresenta un insieme finito di step volti a risolvere un problema. 
+Rappresenta una serie di step, di soluzioni, che ci aiutano a raggiungere il nostro obiettivo:
+trasformare un input in un output desiderato. 
+L'obiettivo è quello di scomporre un 'grande' problema in tanti 'piccoli' problemi e risolverli uno alla volta.  
+
+Possiamo fare un esempio con la costruzione dei LEGO. Se il mio obiettivo è quello di costruire 
+un giardino di fiori LEGO dovrò:
+-prendere una base verde;
+-costruire il primo fiore LEGO;
+-costruire il secondo fiore LEGO;
+-costruire n fiori LEGO;
+-posizionare il primo fiore;
+-posizione il secndo fiore;
+-posizionare l'n fiore. 
+
+Ogni passaggio dice cosa fare e in che ordine farlo; se seguo tutti i passi nell'ordine corretto otterrò il risultato desiderato. 
+
+
+
+VARIBILI
+Una variabile è un contenitore utilizzato per memeorizzare valori che posso essere rituilizzati e modificiati secondo neccessità. 
+Possiamo immaginare che una variabile sia come una scatola con un'etichetta, e che all'interno della scatola possiamo inserire qualsiasi cosa. 
+Per sapere cosa si trova all'interno, dobbiamo aprirla e guardare dentro.
+
+ Per esempio: immaginiamo che sulla scatola ci sia l'etichetta "nome", e all'interno della scatola inseriamo 
+un biglietto con il nostro nome, "Marta". Possiamo dire che la scatola "Nome", contiene il biglietto "Marta". 
+
+let nome = "Marta" --> "let" è come dire 'crea una scatola', "nome" è l'etichetta sulla scatola, "Marta"    è il contenuto della scatola. 
+
+Dichiarando una variabile non facciamo altro che riempire uno spazio della memoria del nostro computer con un dato (contenitore - contenuto).
+
+
+UNDEFINED E NULL
+Undefined e Null non rappresentano la stessa cosa in JavaScript. 
+Un valore è Undefined (indefinito) quando una variabile è stata dichiara,  ma non ha ancora un valore assegnato. JAvaScript assegna automaticamente 
+Undefined a una variabile dichiarata ma non 'definita'. 
+
+Null(nulla/o) invece è un valore che viene assegnato a una variabile per indicare l'assenza intenzionale di un valore. A differenza di Undefined (che di viene 
+assegnato di default quando non viene specificato un valore), null deve essere assegnato esplicitmamento dal programmatorre per indicare che quellavariabile
+non ha alcun valore. 
